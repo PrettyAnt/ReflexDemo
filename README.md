@@ -1,7 +1,7 @@
 # ReflexDemo
 反射demo
 
-##  --------------------包名、类名------------------------
+**包名、类名**
 
   
       类名name:com.wb.Student
@@ -11,7 +11,7 @@
       父类实现的接口：interface java.lang.Runnable
 
 
-##  --------------------构造器------------------------
+**构造器**
 
     父类的构造器:public com.wb.People(java.lang.String,int)
     父类的构造器:public com.wb.People(int)
@@ -21,9 +21,9 @@
     得到的结果People [name=wangbei, age=24]
 
 
-# ===============$只能拿到公有的变量或方法$===============
+## **只能拿到公有的变量或方法**
 
-##  --------------------变量------------------------
+**变量**
 
     变量为:public java.lang.String com.wb.People.love
     变量名:love
@@ -34,7 +34,7 @@
     3.姓名:wangbei
 
 
-##  --------------------方法------------------------
+**方法**
 
     --方法--:run
     --方法--:toString
@@ -54,7 +54,7 @@
     返回值类型为:void
 
 
-# ===============$私有变量或私有方法$===============
+**私有变量或私有方法**
 
     getDeclaredFields()
     getDeclaredMethods()
@@ -63,7 +63,7 @@
     必须让这些对象调用setAccessible(true)才能调用
 
 
-# ===============$注解$===============
+**注解**
 
     注解测试：类---25---class com.wb.People
     注解测试：类---25---class com.wb.People
@@ -74,17 +74,17 @@
 
     注解测试：MyAnnotation1---3---class com.wb.Student
 
-##  -----------------------
+---
 
       MyAnnotation2:MyAnnotation2---50---class com.wb.People
       MyAnnotation1:MyAnnotation1---3---class com.wb.Student
 
-  -----------------------
+---
 
     MyAnnotation1
     MyAnnotation2
 
-##  ===============$数组$===============
+**数组**
 
     int[]
     反射后数组:wangbei0
