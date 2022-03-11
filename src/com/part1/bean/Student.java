@@ -1,4 +1,4 @@
-package com.wb;
+package com.part1.bean;
 
 public class Student extends People {
 

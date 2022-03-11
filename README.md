@@ -4,20 +4,20 @@
 **包名、类名**
 
   
-      类名name:com.wb.Student
-      包名: package com.wb
-      父类：class com.wb.People
+      类名name:com.part1.bean.Student
+      包名: package com.part1
+      父类：class com.part1.bean.People
       父类是不是抽象类：false
       父类实现的接口：interface java.lang.Runnable
 
 
 **构造器**
 
-    父类的构造器:public com.wb.People(java.lang.String,int)
-    父类的构造器:public com.wb.People(int)
-    父类的构造器:public com.wb.People(java.lang.String)
-    父类的构造器:public com.wb.People()
-    构造器方法:public com.wb.People(java.lang.String,int)
+    父类的构造器:public com.part1.bean.People(java.lang.String,int)
+    父类的构造器:public com.part1.bean.People(int)
+    父类的构造器:public com.part1.bean.People(java.lang.String)
+    父类的构造器:public com.part1.bean.People()
+    构造器方法:public com.part1.bean.People(java.lang.String,int)
     得到的结果People [name=wangbei, age=24]
 
 
@@ -25,9 +25,9 @@
 
 **变量**
 
-    变量为:public java.lang.String com.wb.People.love
+    变量为:public java.lang.String com.part1.bean.People.love
     变量名:love
-    变量为:public java.lang.String com.wb.People.love
+    变量为:public java.lang.String com.part1.bean.People.love
     变量名:love
     1.初始化姓名:baobei
     2.姓名:chenyu
@@ -65,19 +65,19 @@
 
 **注解**
 
-    注解测试：类---25---class com.wb.People
-    注解测试：类---25---class com.wb.People
+    注解测试：类---25---class com.part1.bean.People
+    注解测试：类---25---class com.part1.bean.People
 
 ·················
 
-     @com.wb.anno.MyAnnotation2(name=MyAnnotation2, weight=50, gid=class com.wb.People)
+     @com.part1.anno.MyAnnotation2(name=MyAnnotation2, weight=50, gid=class com.part1.bean.People)
 
-    注解测试：MyAnnotation1---3---class com.wb.Student
+    注解测试：MyAnnotation1---3---class com.part1.bean.Student
 
 ---
 
-      MyAnnotation2:MyAnnotation2---50---class com.wb.People
-      MyAnnotation1:MyAnnotation1---3---class com.wb.Student
+      MyAnnotation2:MyAnnotation2---50---class com.part1.bean.People
+      MyAnnotation1:MyAnnotation1---3---class com.part1.bean.Student
 
 ---
 

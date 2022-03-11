@@ -1,4 +1,4 @@
-package com.wb;
+package com.part1.bean;
 
 public class People  implements Runnable{
 	private String name="baobei";

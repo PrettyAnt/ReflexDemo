@@ -1,4 +1,4 @@
-package com.wb.anno;
+package com.part1.anno;
 
 import static java.lang.annotation.ElementType.CONSTRUCTOR; 
 import static java.lang.annotation.ElementType.FIELD;
@@ -11,7 +11,7 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-import com.wb.People;
+import com.part1.bean.People;
 
 /**
  * Created by chenyu. Created on 下午2:40.
